@@ -77,6 +77,8 @@ class StoryBrain {
       storyNumber = 2;
     } else if (choiceNumber == 2 && storyNumber == 1) {
       storyNumber = 3;
+    } else if (storyNumber == 3 || storyNumber == 4 || storyNumber == 5) {
+      storyNumber = 0;
     }
   }
 //TODO: Step 22 - In nextStory() if the storyNumber is equal to 3 or 4 or 5, that means it's the end of the game and it should call a method called restart() that resets the storyNumber to 0.
